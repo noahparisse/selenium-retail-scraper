@@ -4,18 +4,18 @@
 
 This repository contains a small set of Python scripts built on Selenium and undetected-chromedriver. The scrapers are driven by a single, global `SITE_CONFIG` (defined in `scraping_using_uc.py`) so you can adapt the scraper to another website by editing selectors and JSON mappings only — no logic changes required.
 
-## 1 Contents
+## 1. Contents
 
 - `scraping_using_uc.py` — main, configurable scraper using Selenium + undetected-chromedriver.
 - `fichiers excel/` — default directory where Excel outputs are written.
 
-## 2 Key ideas
+## 2. Key ideas
 
 - Global site config: edit `SITE_CONFIG` at the top of `scraping_using_uc.py` to adapt to a new site.
 - Robust parsing: JSON is read from element attributes or `onclick` wrappers with optional slicing.
 - Output: each run writes/updates `<brand_name>.xlsx` in `fichiers excel/` and creates a sheet per category.
 
-## 3 Requirements
+## 3. Requirements
 
 - Python 3.8 or later
 - Recommended packages (examples):
@@ -24,7 +24,7 @@ This repository contains a small set of Python scripts built on Selenium and und
 pip install undetected-chromedriver selenium pandas openpyxl
 ```
 
-## 4 Configuration (`SITE_CONFIG`)
+## 4. Configuration (`SITE_CONFIG`)
 
 Open `scraping_using_uc.py` and edit the `SITE_CONFIG` dictionary near the top. Important keys:
 
@@ -54,7 +54,7 @@ SITE_CONFIG = {
 }
 ```
 
-## 5 Running the scraper
+## 5. Running the scraper
 
 Edit `SITE_CONFIG` as needed, then run the script. The repository includes a minimal example call under `if __name__ == '__main__'`.
 
