@@ -73,5 +73,5 @@ Output: the script creates/updates `fichiers excel/<brand_name>.xlsx` and writes
 
 ## 6. Authors
 
-Noah Parisse noah.parisse@student-cs
+Noah Parisse noah.parisse@student-cs.fr  
 Lucas Chivet lucas.chivet@student-cs.fr
