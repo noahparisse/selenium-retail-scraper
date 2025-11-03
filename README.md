@@ -1,4 +1,4 @@
-# projet-s7 — Clothing e-commerce scrapers
+# Clothing e-commerce scrapers
 
 > Lightweight, site-configurable scrapers for extracting product metadata from fashion e‑commerce websites and exporting results to Excel.
 
