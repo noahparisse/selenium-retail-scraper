@@ -71,4 +71,7 @@ run_scrap('https://example.com/collection', 'ExampleBrand', 'Dresses')
 
 Output: the script creates/updates `fichiers excel/<brand_name>.xlsx` and writes the scraped products into a sheet named after the `category` argument.
 
+## 6. Authors
 
+Noah Parisse noah.parisse@student-cs
+Lucas Chivet lucas.chivet@student-cs.fr
